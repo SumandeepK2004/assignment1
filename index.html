@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- page header -->
+    <header>
+        <h1> Pizza Information </h1>
+    </header>
+    <!-- body of the html page -->
+    <main>
+        <form action="subscribe.php">
+            <fieldset>
+                <legend><h2> Place order</h2> </legend>
+                    <fieldset>
+                        <legend><h2>Contact Information</h2> </legend>
+                            <label for="date">Date</label>
+                            <input class="info" type="date" name="date">
+                            <br>
+                            <label for="phone">Contact number</label>
+                            <input id="info" type="text" name="phone" >
+                            <br>
+                            <label for="email">Email</label>
+                            <input id="in"class="info" type="email" name="email">
+                            <br>
+                    </fieldset>
+                
+                <div id="pizza1">
+                    <img src="https://hips.hearstapps.com/hmg-prod/images/classic-cheese-pizza-recipe-2-64429a0cb408b.jpg?crop=0.8888888888888888xw:1xh;center,top&resize=1200:*" alt="pizza" height="200px" >
+                </div>          
+
+                <h3 id="pizza"><label for="number">Number of Pizza's</label></h3>
+                <input type="text" name="pizza number">
+                <br>
+                <!-- number of slices for pizza -->
+                <h3>Number of Slices</h3>
+                <input type="radio" name="pizza number" value="4">
+                <label for="1">4</label>
+                <input type="radio" name="pizza number" value="6">
+                <label for="2">6</label>
+                <input type="radio" name="pizza number" value="8">
+                <label for="3">8</label>
+                <input type="radio" name="pizza number" value="10">
+                <label for="4">10</label>
+                <!-- differnt shapes types -->
+                <h3>Shape</h3>
+                <input type="radio" name="pizza number" value="circle">
+                <label for="ciecle">Circle</label>
+                <input type="radio" name="pizza number" value="square">
+                <label for="square">Square</label>
+                <h3>Types of Pizza</h3>
+                <input type="checkbox" name="type" >
+                <label for="pepperoni">Pepperoni</label>
+                <input type="checkbox" name="Type" >
+                <label for="cheese">Cheese</label>
+                <input type="checkbox" name="Type" >
+                <label for="neaplitan">Neapolitan</label>
+                <input type="checkbox" name="type" >
+                <label for="sweet corn">Sweet corn</label>
+                <!-- topings -->
+                <h3>Toppings</h3>
+                <input type="checkbox" name="Toppings" >
+                <label for="capsicum">Capsicum</label>
+                <input type="checkbox" name="Toppings" >
+                <label for="Cheese">Cheese</label>
+                <input type="checkbox" name="Toppings" >
+                <label for="paneer">Paneer</label>
+                <input type="checkbox" name="Toppings" >
+                <label for="broccoli">Broccoli</label>
+                <input type="checkbox" name="Toppings" >
+                <label for="mushroom">Mushrooms</label>
+                <input type="checkbox" name="Toppings" >
+                <label for="olives">Olives</label>
+                <input type="checkbox" name="Toppings" >
+                <label for="onion">Onion</label>
+                <input type="checkbox" name="Toppings" >
+                <label for="bacon">Bacon</label>
+                <!-- base for pizza -->
+                <h3>Crust Type</h3>
+                <input type="checkbox" name="crust" >
+                <label for="Deep dish">Deep dish</label>
+                <input type="checkbox" name="crust" >
+                <label for="flatbread">Flatbread</label>
+                <input type="checkbox" name="crust" >
+                <label for="stuffed">Stuffed</label>
+                <input type="checkbox" name="crust" >
+                <label for="sicilian">Sicilian</label>
+
+                <!-- delivery methods -->
+                <h3>Method of Delivery</h3>
+                <input type="radio" name="method" >
+                <label for="delivery">Delivery</label>
+                <input type="radio" name="method" >
+                <label for="walk-in">Walk-in</label>
+                <!-- payment methods -->
+                <h3>Method of Payment</h3>
+                <input type="radio" name="cash">
+                <label for="cash">Cash</label>
+                <input type="radio" name="online">
+                <label for="online">Online</label>
+                <br><br>
+                <!-- buttons -->
+                <button type="submit">Submit</button>
+                <button type="reset">Reset</button>
+
+                
+                
+            </fieldset>
+        </form>
+    </main>
+    <!-- page footer -->
+    <footer>
+
+    </footer>
+</body>
+</html>

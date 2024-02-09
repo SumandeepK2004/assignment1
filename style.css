@@ -1,0 +1,28 @@
+#pizza{
+    display:inline;
+}
+h1{
+    text-align: center;
+}
+form{
+    margin-left: 350px;
+     width:800px;
+     background-color: antiquewhite;
+}
+#pizza1{
+    float:right;
+    float: top;
+    margin-top: 0%;
+    margin-right: 0%;
+
+}
+.info{
+    margin-left: 100px;
+}
+#info{
+    margin-left: 28px;
+}
+#in{
+    margin-left: 94px;
+}
+
